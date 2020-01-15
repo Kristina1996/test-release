@@ -22,7 +22,7 @@ script:
   - npm run electron:linux
 deploy:
   provider: releases
-  api_key: 59c19654b5a1c50ab2ca29bdddb611ffe64b95b4
+  api_key: ${api_token}
   file: 'release/SurvShell'
   skip_cleanup: true
   on:
